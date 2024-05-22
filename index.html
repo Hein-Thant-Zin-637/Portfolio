@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="my_portfolio.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/f1dd83d39c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
@@ -71,11 +71,11 @@
     <main>
         <div class="home" id="home">
             <div class="animation">
-                <img class="astronaut" src="../image/astronaut.png" alt="astronaut">
-                <img class="laptop" src="../image/laptop.png" alt="laptop">
-                <img class="moon" src="../image/moon.png" alt="moon">
-                <img class="plant_circle" src="../image/plant_circle.png" alt="plant circle">
-                <img class="plant" src="../image/plant.png" alt="plant">
+                <img class="astronaut" src="/Image/astronaut.png" alt="astronaut">
+                <img class="laptop" src="/Image/laptop.png" alt="laptop">
+                <img class="moon" src="/Image/moon.png" alt="moon">
+                <img class="plant_circle" src="/Image/plant_circle.png" alt="plant circle">
+                <img class="plant" src="/Image/plant.png" alt="plant">
             </div>
             <div class="welcome">
                 <h1>Welcome</h1>
@@ -106,7 +106,7 @@
             <h2>About Me</h2>
             <div class="aboutme">
                 <div class="imagediv">
-                    <img src="../image/hein_thant_zin_2.jpg" alt="">
+                    <img src="/Image/hein_thant_zin_2.jpg" alt="">
                 </div>
                 <div class="aboutdesc">
                     <h3>About Me</h3>
@@ -140,35 +140,25 @@
             </div>
             <h3>Programming Lenguage</h3>
             <div class="programming">
+                <div class="lenguage" style="background-color: rgb(212, 130, 14);"><i class="fa-brands fa-java"></i>JAVA
+                </div>
+                <div class="lenguage" style="background-color: rgb(66,117,156);"><i class="fa-solid fa-database"></i>MY SQL
+                </div>
                 <div class="lenguage" style="background-color: rgb(228,77,38);"><i class="fa-brands fa-html5"></i>HTML
                 </div>
                 <div class="lenguage" style="background-color: rgb(37,75,221);"><i class="fa-brands fa-css3-alt"></i>CSS
                 </div>
-                <div class="lenguage" style="background-color: rgb(212, 130, 14);"><i class="fa-brands fa-java"></i>JAVA
+                <div class="lenguage" style="background-color: rgb(112,17,245);"><i class="fa-brands fa-bootstrap"></i>Bootstrap
                 </div>
-                <div class="lenguage" style="background-color: rgb(66,117,156);"><i class="fa-solid fa-database"></i>MY
-                    SQL</div>
+                <div class="lenguage" style="background-color: rgb(237,215,24)  ;"><i class="fa-brands fa-js"></i>JavaScript
+                </div>
+                <div class="lenguage" style="background-color: rgb(115,119,173);"><i class="fa-brands fa-php fa-1x"></i>PHP
+                </div>
+                <div class="lenguage" style="background-color: rgb(248,52,45);"><i class="fa-brands fa-laravel"></i>Laravel
+                </div>
             </div>
             <div class="skill">
                 <h3>Skill</h3>
-                <div>
-                    <div class="langper">
-                        <div>HTML</div>
-                        <div>80%</div>
-                    </div>
-                    <div class="progress">
-                        <div class="percent" style="width: 80%;">&nbsp</div>
-                    </div>
-                </div>
-                <div>
-                    <div class="langper">
-                        <div>CSS</div>
-                        <div>60%</div>
-                    </div>
-                    <div class="progress">
-                        <div class="percent" style="width: 60%;">&nbsp</div>
-                    </div>
-                </div>
                 <div>
                     <div class="langper">
                         <div>JAVA</div>
@@ -181,10 +171,64 @@
                 <div>
                     <div class="langper">
                         <div>MY SQL</div>
+                        <div>80%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="percent" style="width: 80%;">&nbsp</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="langper">
+                        <div>HTML</div>
                         <div>90%</div>
                     </div>
                     <div class="progress">
                         <div class="percent" style="width: 90%;">&nbsp</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="langper">
+                        <div>CSS</div>
+                        <div>80%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="percent" style="width: 80%;">&nbsp</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="langper">
+                        <div>Bootstrap</div>
+                        <div>75%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="percent" style="width: 75%;">&nbsp</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="langper">
+                        <div>JavaScript</div>
+                        <div>40%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="percent" style="width: 40%;">&nbsp</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="langper">
+                        <div>PHP</div>
+                        <div>90%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="percent" style="width: 90%;">&nbsp</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="langper">
+                        <div>Laravel</div>
+                        <div>70%</div>
+                    </div>
+                    <div class="progress">
+                        <div class="percent" style="width: 70%;">&nbsp</div>
                     </div>
                 </div>
             </div>
@@ -194,33 +238,77 @@
             <div class="project-grid">
                 <div class="projectdiv">
                     <div class="top-left"></div>
-                    <img src="../image/tic-tac-toe.png" alt="">
+                    <img src="/Image/onlineshop (1).png" alt="">
                     <div class="overlay">
-                        <div class="hover"> Tic Tac Toc</div>
+                        <div class="hover">
+                            <p>Online Shop</p>
+                            <div class="detail">
+                                <a href="/online_shop.html">
+                                    <div class="top-left"></div>
+                                    <div class="top-right"></div>
+                                    <p>Details</p>
+                                    <div class="bottom-left"></div>
+                                    <div class="bottom-right"></div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="bottom-right"></div>
                 </div>
                 <div class="projectdiv">
                     <div class="top-left"></div>
-                    <img src="../image/tribute.jpg" alt="">
+                    <img src="/Image/hotelbooking (1).png" alt="">
                     <div class="overlay">
-                        <div class="hover"> Tribute</div>
+                        <div class="hover"> 
+                            <p>Hotel Booking</p>
+                            <div class="detail">
+                                <a href="/hotel_booking.html">
+                                    <div class="top-left"></div>
+                                    <div class="top-right"></div>
+                                    <p>Details</p>
+                                    <div class="bottom-left"></div>
+                                    <div class="bottom-right"></div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="bottom-right"></div>
                 </div>
                 <div class="projectdiv">
                     <div class="top-left"></div>
-                    <img src="../image/wiki.png" alt="">
+                    <img src="/Image/studentmangemant (1).png" alt="">
                     <div class="overlay">
-                        <div class="hover"> Wiki</div>
+                        <div class="hover">
+                            <p>Student Mangement</p>
+                            <div class="detail">
+                                <a href="/student_mangement.html">
+                                    <div class="top-left"></div>
+                                    <div class="top-right"></div>
+                                    <p>Details</p>
+                                    <div class="bottom-left"></div>
+                                    <div class="bottom-right"></div>
+                                </a>
+                            </div> 
+                        </div>
                     </div>
                     <div class="bottom-right"></div>
                 </div>
                 <div class="projectdiv">
                     <div class="top-left"></div>
-                    <img src="../image/map.jpg" alt="">
+                    <img src="/Image/twitterclone (4).png" alt="">
                     <div class="overlay">
-                        <div class="hover"> Map </div>
+                        <div class="hover">
+                            <p> Twitter Clone </p>
+                            <div class="detail">
+                                <a href="/twitter_clone.html">
+                                    <div class="top-left"></div>
+                                    <div class="top-right"></div>
+                                    <p>Details</p>
+                                    <div class="bottom-left"></div>
+                                    <div class="bottom-right"></div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="bottom-right"></div>
                 </div>
@@ -268,13 +356,13 @@
                     <div class="link-container">
                         <ul class="effect">
                             <li>
-                                <a href="">
+                                <a href="https://www.facebook.com/heinthant.zin.5015?mibextid=ZbWKwL">
                                     <i class="fa-brands fa-square-facebook"></i>
                                     <span>Facebook</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="https://www.instagram.com/heinthantzin17">
                                     <i class="fa-brands fa-instagram"></i>
                                     <span>Instagram</span>
                                 </a>
@@ -286,7 +374,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a href="https://t.me/heinthantzin17">
                                     <i class="fa-brands fa-telegram"></i>
                                     <span>Telegram</span>
                                 </a>

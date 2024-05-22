@@ -123,44 +123,117 @@ aside a:hover {
     background-color: rgba(41, 117, 224, 0.5);
 }
 
+.github{
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.github a {
+    width: 400px;
+    height: 70px;
+    position: relative;
+    padding: 10px 23px;
+    margin-top: 10px;
+    text-decoration: none;
+    Letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    background-color: rgba(122, 174, 247, 0.2);
+}
+
+.github a:hover {
+    background-color: rgba(41, 117, 224, 0.5);
+}
+
+.detail{
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail a {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    padding: 10px 23px;
+    margin-top: 10px;
+    text-decoration: none;
+    Letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    background-color: rgba(122, 174, 247, 0.2);
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+
 .top-left {
     position: absolute;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
-    border-top: 2px solid #608ac5;
-    border-left: 2px solid #608ac5;
+    width: 20px !important;
+    height: 20px !important;
+    border-top: 2px solid #608ac5 !important;
+    border-left: 2px solid #608ac5 !important;
 }
 
 .top-right {
     position: absolute;
     top: 0;
     right: 0;
-    width: 20px;
-    height: 20px;
-    border-top: 2px solid #608ac5;
-    border-right: 2px solid #608ac5;
+    width: 20px !important;
+    height: 20px !important;
+    border-top: 2px solid #608ac5 !important;
+    border-right: 2px solid #608ac5 !important;
 }
 
 .bottom-left {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
-    border-bottom: 2px solid #608ac5;
-    border-left: 2px solid #608ac5;
+    width: 20px !important;
+    height: 20px !important;
+    border-bottom: 2px solid #608ac5 !important;
+    border-left: 2px solid #608ac5 !important;
 }
 
 .bottom-right {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 20px;
-    height: 20px;
-    border-bottom: 2px solid #608ac5;
-    border-right: 2px solid #608ac5;
+    width: 20px !important;
+    height: 20px !important;
+    border-bottom: 2px solid #608ac5 !important;
+    border-right: 2px solid #608ac5 !important;
 }
 
 main {
@@ -427,6 +500,9 @@ main {
 
 .projectdiv:hover .overlay {
     height: 100%;
+    .detail a:hover {
+        background-color: rgba(41, 117, 224, 0.5);
+    }
 }
 
 .contact {
