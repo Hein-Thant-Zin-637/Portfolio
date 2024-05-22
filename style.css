@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(../image/background_in_space.gif);
+    background-image: url('Image/background_in_space.gif');
     object-fit: cover;
     background-attachment: fixed;
     position: relative;
