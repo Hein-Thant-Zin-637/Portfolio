@@ -189,6 +189,41 @@ aside a:hover {
     background-color: rgba(122, 174, 247, 0.2);
 }
 
+.cvform{
+    position: relative;
+    padding: 20px;
+    text-decoration: none;
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+    align-items: center;
+}
+
+.cvform a {
+    width: 230px;
+    height: 50px;
+    position: relative;
+    padding: 10px 23px;
+    margin-top: 10px;
+    text-decoration: none;
+    Letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    background-color: rgba(122, 174, 247, 0.2);
+}
+
+.cvform a:hover {
+    background-color: rgba(41, 117, 224, 0.5);
+}
+
 .isDisabled {
     color: currentColor;
     cursor: not-allowed;
